@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Ryan Allen">
+    <meta name="description" content="Contact us with any questions you have!">
+    <title>Hilltop Heaven | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+    <body>
+        <header>
+            <a href="index.html"><h1>Hilltop Heaven</h1></a>
+            <!-- <div id="hero-image">
+                <img src="images/swiss-valley.jpg" alt="Image of a beautiful Swiss valley">
+            </div> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="reach-out">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <img src="images/swiss-peak.jpg" alt="Image of Swiss mountain with river flowing at the bottom.">
+            </section>
+            
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                
+                <label for="fullName">Full Name<span>*</span></label><br>
+                <input type="text" id="fullName" name="fullName" required placeholder="Your full name"><br><br>
+              
+                <label for="email">Email Address<span>*</span></label><br>
+                <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
+              
+                <label for="phone">Phone Number<span>*</span></label><br>
+                <input type="tel" name="phone" required pattern="^\d{10}$" placeholder="1234567890" title="Please enter a 10-digit phone number (numbers only)"><br><br>
+              
+                <p>Preferred Contact Method<span>*</span></p>
+                <div class="radio-group">
+                 <label class="radio-option">
+                <input type="radio" name="preferredContact" value="email" required>
+                <span class="custom-radio"></span>
+                Email
+                </label>
+                <label class="radio-option">
+                <input type="radio" name="preferredContact" value="phone" required>
+                <span class="custom-radio"></span>
+                Phone
+            </label>
+</div>
+              
+                <label for="comments">Comments<span>*</span></label><br>
+                <textarea id="comments" name="comments" required placeholder="Your comments"></textarea><br><br>
+              
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright ©2023 - Hilltop Heaven</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
